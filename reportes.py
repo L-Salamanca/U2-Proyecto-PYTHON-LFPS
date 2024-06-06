@@ -1,14 +1,19 @@
-from Data import campers
-from Rutas import rutas_entrenamiento
+from Data import *
+from Rutas import *
+from Trainers import *
+import json
 
 def listar_asignaciones():
     asignaciones = []
     for ruta in rutas_entrenamiento:
-        campers_ruta = [c for c in campers if c["id"] in ruta["campers_asignados"]]
-        asignaciones.append({
-            "ruta": ruta["nombre"],
-            "campers": campers_ruta
-        })
+        trainer = buscar_trainer_por_id(ruta["trainer"])
+        if trainer is not None:
+            asignacion = {
+                "ruta": ruta["nombre"],
+                "campers": [c for c in campers if c["id"] in ruta["campers_asignados"]],
+                "trainer": trainer["nombres"] + " " + trainer["apellidos"]
+            }
+            asignaciones.append(asignacion)
     return asignaciones
 
 def mostrar_resultados_modulos():

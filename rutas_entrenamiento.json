@@ -1,0 +1,10 @@
+[
+    {
+        "id": "U2",
+        "nombre": "Fundamentos de programacion",
+        "modulos": "Introduccion a la algoritmia, PSeInt y Python",
+        "capacidad_maxima": "33",
+        "area_entrenamiento": "Sputnik",
+        "campers_asignados": []
+    }
+]
