@@ -1,8 +1,5 @@
 # Proyecto Python Filtro
-Este proyecto consiste en la utilización de python para crear un programa que fuera capaz 
-de simular el manejo de gestión de la institución Campuslands desde la parte adeministrativa
-entre lo que mas se destacaba era la capacidad de tomar acción a partir de 3 roles 
-cada uno con sus respectivas funciones
+Este proyecto se centra en el desarrollo de un programa en Python destinado a simular el manejo administrativo de la institución Campuslands. Esta simulación abarca la ejecución de diversas funciones críticas dentro de la administración, donde se destacan tres roles principales, cada uno con responsabilidades específicas. Estos roles permiten la gestión integral de la institución, abarcando desde la planificación y ejecución de actividades académicas hasta la administración de recursos y la toma de decisiones estratégicas. La implementación del programa busca proporcionar una herramienta efectiva para la optimización de procesos administrativos, asegurando un funcionamiento eficiente y coordinado de la institución Campuslands en su totalidad.
 
 
 ## Getting Started
