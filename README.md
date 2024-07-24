@@ -12,7 +12,6 @@ Para acceder al programa solo hay que:
 3.Instalar Python
 4.Abrir el programa
 ### Prerequisites
-List any software, libraries, or hardware needed to run this project.
  Lists : 
  - **Sistema Operativo** : Un sistema operativo como Windows 10, Ubuntu 20.04
  - **Lenguaje** : Python en su mas reciente actualización para evitar fallos
