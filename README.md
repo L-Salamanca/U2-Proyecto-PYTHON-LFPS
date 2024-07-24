@@ -19,9 +19,9 @@ Para acceder al programa solo hay que:
 ## Usage
 El camper quien funciona como usuario
 promedio accede a funciones como:
--registrarse, ver sus calificaciónes
--comprobar las rutas de estudio disponibles actualmente 
--darse de alta del programa y retirarse
+- registrarse, ver sus calificaciónes
+- comprobar las rutas de estudio disponibles actualmente 
+- darse de alta del programa y retirarse
 
 El trainer o profesor puede igualmente
 -registrarse
